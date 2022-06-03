@@ -1,0 +1,109 @@
+.main-content{
+    min-height: 1000px;
+    display: grid;
+    width: 90%;
+    margin: 20px auto;
+    grid-template-columns: 300px 700px;
+
+}
+.left-section{
+    grid-column: span 1;
+    background-color: aquamarine;
+}
+.right-section{
+    grid-column: span 1 / span 2;
+    background-color: black;
+}
+.left-content{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.profile{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border: 5px solid white;
+    border-radius: 30%;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    
+}
+.name{
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    
+}
+.designation{
+    font-size: 1rem;
+    text-align: center;
+    padding-bottom: 0.5rem;
+
+}
+.description{
+    font-size: 0.75rem;
+    text-align: center;padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+}
+.social-media{
+    display: flex;
+}
+.social-media:active{
+    color: blue;
+
+}
+.skills{
+    font-size: 0.75rem;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 00.5rem;
+}
+.skill-name{
+    font-size: 0.65rem;
+    font-weight: 0.65rem;
+    text-align: left;
+    padding-bottom: 0.5rem;
+}
+.progress-bar{
+    border: 1px solid white;
+    height: 4px;
+}
+.right-main-content{
+    padding-top: 2rem , 32px;
+    padding-bottom: 2rem , 32px;
+    padding-left: 3rem , 48px;
+    padding-right: 3rem , 48px;
+}
+.right-title{
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 00.5rem;
+    letter-spacing: 1px;
+}
+.right-heading{
+    color: green
+}
+.right-paragraph{
+    color: white;
+}
+.right-heading1{
+    color: green
+}
+.right-paragraph1{
+    color: white;
+}
+.right-heading2{
+    color: green
+}
+.right-paragraph2{
+    color: white;
+}
